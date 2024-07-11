@@ -11,20 +11,31 @@ body {
   width: auto;
   background-image: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
 }
-#container{
-    width: 40%;
-    
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: antiquewhite;
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 85%;
+  height: auto;
+  padding: 2rem;
 }
 
-#innerContainerText{
-    padding: 1.5rem;
-    font-size: 1.3rem;
-    background-image: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+#innerContainerText {
+  padding: 1.5rem;
+  font-size: 3.5vw;
+  background-image: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.key {
+  background-image: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
+  padding: 1rem;
+  font-size: large;
+  width: 30%;
+}
+.key > small{
+    display: block;
+    background-color: inherit;
+    
 }
